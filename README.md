@@ -7,6 +7,6 @@ Simple bash .sh scripts. Tested on Manjaro. Easely to update to your linux distr
 - **proxify.sh** — create a proxified list of folders and empty files according to *.tsv file — usage `bash proxify.sh Files.tsv`
 
 ## Audio files processing (aiff, mp3)
-Simple tools for merging files in subfolders (especially after CD rips). Merges segmentated audio files (like 01-Track.mp3, 02-Track-mp3, 03-Track.mp3) into single song as single track (Song01.mp3).
+Simple tools for merging files in subfolders (especially after CD rips). Merges segmentated audio files (like 01-Track.mp3, 02-Track-mp3, 03-Track.mp3) into single song as single audio (First-Song.mp3).
 Suggested algorhytms: sox, cat, ffmpeg.
 Some scripts containing renamer (to pre-rename files before merging) — it's handling in some cases to avoid misordering of files started with digits.
