@@ -7,7 +7,7 @@ Tested on Manjaro. Easely to update to your linux distro.
 - **Delete content but keep the folders.zip**  — usage `bash delfolders.sh /your-path/` — allowing to wipe content from all subfolders;
 - **proxify.sh** — create a proxified list of folders and empty files according to *.tsv file — usage `bash proxify.sh Files.tsv`
 
-### Audio files processing (aiff, mp3)
+### Audio files processing (aiff, mp3, wma)
 Simple tools for merging files in subfolders (especially after CD rips). Merges segmentated audio files (like 01-Track.mp3, 02-Track-mp3, 03-Track.mp3) into single song as single audio (First-Song.mp3).
 Suggested algorhytms: sox, cat, ffmpeg.
 Some scripts containing renamer (to pre-rename files before merging) — it's handling in some cases to avoid misordering of files started with digits.
